@@ -15,10 +15,10 @@ public class ContactController {
     List<Contact> contacts;
 
     public ContactController() {
-        this.contacts = new Arrays.asList(
+        this.contacts = Arrays.asList(
                 new Contact("Tedi", "+35988228884"),
-                new Contact("George"," +359882221212"),
-        )
+                new Contact("George", " +359882221212"),
+                );
 
     }
 
